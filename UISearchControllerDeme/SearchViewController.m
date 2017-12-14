@@ -93,7 +93,7 @@
 #pragma mark - UISearchResultsUpdating
 //每输入一个字符都会执行一次
 - (void)updateSearchResultsForSearchController:(UISearchController *)searchController{
-    NSLog(@"搜索🔍……%@",searchController.searchBar.text);
+    NSLog(@"搜索……%@",searchController.searchBar.text);
     searchController.searchResultsController.view.hidden = NO;
 
     //谓词搜索

@@ -50,15 +50,13 @@
     self.searchController.delegate = self;
     self.searchController.searchBar.delegate = self;
     [self.searchController.searchBar sizeToFit];
+    self.searchController.searchBar.placeholder = @"搜索";
+//    self.searchController.searchBar.text = @"默认搜索内容";
     
     //包着搜索框外层的颜色
     self.searchController.searchBar.tintColor = [UIColor colorWithRed:22.0/255 green:161.0/255 blue:1.0/255 alpha:1];
 //    self.searchController.searchBar.barTintColor = [UIColor groupTableViewBackgroundColor];
 //    self.searchController.searchBar.layer.borderColor = [UIColor groupTableViewBackgroundColor].CGColor;
-    
-    
-    self.searchController.searchBar.placeholder= @"搜索";
-//    self.searchController.searchBar.text = @"默认搜索内容";
     
     //设置UISearchController的显示属性，以下3个属性默认为YES
     
