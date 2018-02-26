@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C71ECF4F2033DE1000CD6299 /* BaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = C71ECF4E2033DE1000CD6299 /* BaseNavigationController.m */; };
 		C7F651BA1FE0C58A004D31B3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C7F651B91FE0C58A004D31B3 /* AppDelegate.m */; };
 		C7F651C21FE0C58A004D31B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C7F651C11FE0C58A004D31B3 /* Assets.xcassets */; };
 		C7F651C51FE0C58A004D31B3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7F651C31FE0C58A004D31B3 /* LaunchScreen.storyboard */; };
@@ -41,6 +42,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C71ECF4D2033DE1000CD6299 /* BaseNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseNavigationController.h; sourceTree = "<group>"; };
+		C71ECF4E2033DE1000CD6299 /* BaseNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseNavigationController.m; sourceTree = "<group>"; };
 		C7F651B51FE0C58A004D31B3 /* UISearchControllerDeme.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UISearchControllerDeme.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7F651B81FE0C58A004D31B3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C7F651B91FE0C58A004D31B3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -116,6 +119,8 @@
 		C7F651B71FE0C58A004D31B3 /* UISearchControllerDeme */ = {
 			isa = PBXGroup;
 			children = (
+				C71ECF4D2033DE1000CD6299 /* BaseNavigationController.h */,
+				C71ECF4E2033DE1000CD6299 /* BaseNavigationController.m */,
 				C7F651B81FE0C58A004D31B3 /* AppDelegate.h */,
 				C7F651B91FE0C58A004D31B3 /* AppDelegate.m */,
 				C7F651EA1FE0C5AB004D31B3 /* ViewController.h */,
@@ -293,6 +298,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C7F651ED1FE0C5AB004D31B3 /* ViewController.m in Sources */,
+				C71ECF4F2033DE1000CD6299 /* BaseNavigationController.m in Sources */,
 				C7F651C81FE0C58A004D31B3 /* main.m in Sources */,
 				C7F652161FE0F17D004D31B3 /* CustomTableViewCell.m in Sources */,
 				C7F651F21FE0C6FF004D31B3 /* SearchViewController.m in Sources */,

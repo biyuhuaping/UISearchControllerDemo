@@ -9,6 +9,7 @@
 #import "ViewController.h"
 #import "SearchViewController.h"
 #import "SearchDetailVC.h"
+#import "AppDelegate.h"
 
 @interface ViewController ()<UISearchControllerDelegate,UISearchBarDelegate>
 
@@ -137,6 +138,8 @@
 //测试UISearchController的执行过程
 - (void)willPresentSearchController:(UISearchController *)searchController {
     NSLog(@"willPresentSearchController");
+    AppDelegate *delegate = (AppDelegate *)[UIApplication sharedApplication].delegate;
+    [delegate tabbarHidden:YES];
 }
 
 - (void)didPresentSearchController:(UISearchController *)searchController {
@@ -149,6 +152,8 @@
 
 - (void)didDismissSearchController:(UISearchController *)searchController {
     NSLog(@"didDismissSearchController");
+    AppDelegate *delegate = (AppDelegate *)[UIApplication sharedApplication].delegate;
+    [delegate tabbarHidden:NO];
 }
 
 - (void)presentSearchController:(UISearchController *)searchController {

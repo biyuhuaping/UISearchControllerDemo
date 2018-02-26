@@ -9,6 +9,7 @@
 #import "SearchViewController.h"
 #import "CustomTableViewCell.h"
 #import "SearchDetailVC.h"
+#import "AppDelegate.h"
 
 @interface SearchViewController ()
 @property (strong, nonatomic) IBOutlet UITableView *tableView;
@@ -33,6 +34,11 @@
     for (NSInteger i = 0; i<100; i++) {
         [self.dataListArry addObject:[NSString stringWithFormat:@"%ld%@",(long)i,[self shuffledAlphabet]]];
     }
+}
+
+- (void)viewWillLayoutSubviews{
+    AppDelegate *delegate = (AppDelegate *)[UIApplication sharedApplication].delegate;
+    [delegate tabbarHidden:YES];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -63,7 +69,6 @@
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
     NSInteger i = self.searchList.count > 0 ? self.searchList.count : 1;
-    NSLog(@"=== %ld",i);
     return i;
 }
 
@@ -93,7 +98,7 @@
 #pragma mark - UISearchResultsUpdating
 //每输入一个字符都会执行一次
 - (void)updateSearchResultsForSearchController:(UISearchController *)searchController{
-    NSLog(@"搜索……%@",searchController.searchBar.text);
+    NSLog(@"搜索关键字：%@",searchController.searchBar.text);
     searchController.searchResultsController.view.hidden = NO;
 
     //谓词搜索
