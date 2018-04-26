@@ -15,7 +15,7 @@
 @property (strong, nonatomic) IBOutlet UITableView *tableView;
 
 @property (strong, nonatomic) NSMutableArray *searchList;//满足搜索条件的数组
-@property (strong, nonatomic) NSMutableArray *dataListArry;
+
 @end
 
 @implementation SearchViewController
@@ -29,11 +29,6 @@
     self.tableView.tableFooterView = [[UIView alloc] init];
     self.automaticallyAdjustsScrollViewInsets = NO;//不加的话，table会下移
     self.edgesForExtendedLayout = UIRectEdgeNone;//不加的话，UISearchBar返回后会上移
-    
-    //产生100个数字+三个随机字母
-    for (NSInteger i = 0; i<100; i++) {
-        [self.dataListArry addObject:[NSString stringWithFormat:@"%ld%@",(long)i,[self shuffledAlphabet]]];
-    }
 }
 
 - (void)viewWillLayoutSubviews{
@@ -44,18 +39,6 @@
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
-}
-
-//产生3个随机字母
-- (NSString *)shuffledAlphabet {
-    NSMutableArray * shuffledAlphabet = [NSMutableArray arrayWithArray:@[@"A",@"B",@"C",@"D",@"E",@"F",@"G",@"H",@"I",@"J",@"K",@"L",@"M",@"N",@"O",@"P",@"Q",@"R",@"S",@"T",@"U",@"V",@"W",@"X",@"Y",@"Z"]];
-    
-    NSString *strTest = [[NSString alloc]init];
-    for (int i=0; i<3; i++) {
-        int x = arc4random() % 25;
-        strTest = [NSString stringWithFormat:@"%@%@",strTest,shuffledAlphabet[x]];
-    }
-    return strTest;
 }
 
 #pragma mark - tableView

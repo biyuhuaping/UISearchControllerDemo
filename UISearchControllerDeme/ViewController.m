@@ -44,7 +44,7 @@
 
 - (void)initSearchController{
     self.searchVC = [[SearchViewController alloc]initWithNibName:@"SearchViewController" bundle:nil];
-    
+
     //创建UISearchController
     self.searchController = [[UISearchController alloc]initWithSearchResultsController:self.searchVC];
     self.searchController.searchResultsUpdater = self.searchVC;
@@ -78,7 +78,7 @@
     self.definesPresentationContext = YES;
     self.searchVC.nav = self.navigationController;
     self.searchVC.searchBar = self.searchController.searchBar;
-    
+
     self.tableView.tableFooterView = [[UIView alloc]initWithFrame:CGRectZero];
     [self.tableView scrollToRowAtIndexPath:[NSIndexPath indexPathForRow:0 inSection:0] atScrollPosition:UITableViewScrollPositionTop animated:NO];
 }
@@ -144,6 +144,7 @@
 
 - (void)didPresentSearchController:(UISearchController *)searchController {
     NSLog(@"didPresentSearchController");
+    self.searchVC.dataListArry = self.dataListArry;
 }
 
 - (void)willDismissSearchController:(UISearchController *)searchController {

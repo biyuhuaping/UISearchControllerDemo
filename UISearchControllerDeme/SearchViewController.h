@@ -9,6 +9,9 @@
 #import <UIKit/UIKit.h>
 
 @interface SearchViewController : UIViewController <UISearchResultsUpdating>
+
 @property (strong, nonatomic) UINavigationController *nav;
 @property (strong, nonatomic) UISearchBar *searchBar;
+@property (strong, nonatomic) NSMutableArray *dataListArry;
+
 @end
