@@ -9,7 +9,6 @@
 #import "SearchViewController.h"
 #import "CustomTableViewCell.h"
 #import "SearchDetailVC.h"
-#import "AppDelegate.h"
 
 @interface SearchViewController ()
 @property (strong, nonatomic) IBOutlet UITableView *tableView;
@@ -29,11 +28,6 @@
     self.tableView.tableFooterView = [[UIView alloc] init];
     self.automaticallyAdjustsScrollViewInsets = NO;//不加的话，table会下移
     self.edgesForExtendedLayout = UIRectEdgeNone;//不加的话，UISearchBar返回后会上移
-}
-
-- (void)viewWillLayoutSubviews{
-    AppDelegate *delegate = (AppDelegate *)[UIApplication sharedApplication].delegate;
-    [delegate tabbarHidden:YES];
 }
 
 - (void)didReceiveMemoryWarning {

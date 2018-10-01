@@ -138,8 +138,8 @@
 //测试UISearchController的执行过程
 - (void)willPresentSearchController:(UISearchController *)searchController {
     NSLog(@"willPresentSearchController");
-    AppDelegate *delegate = (AppDelegate *)[UIApplication sharedApplication].delegate;
-    [delegate tabbarHidden:YES];
+    self.tabBarController.tabBar.hidden = YES;
+    self.edgesForExtendedLayout = UIRectEdgeBottom;
 }
 
 - (void)didPresentSearchController:(UISearchController *)searchController {
@@ -149,12 +149,12 @@
 
 - (void)willDismissSearchController:(UISearchController *)searchController {
     NSLog(@"willDismissSearchController");
+    self.tabBarController.tabBar.hidden = NO;
+    self.edgesForExtendedLayout = UIRectEdgeBottom;
 }
 
 - (void)didDismissSearchController:(UISearchController *)searchController {
     NSLog(@"didDismissSearchController");
-    AppDelegate *delegate = (AppDelegate *)[UIApplication sharedApplication].delegate;
-    [delegate tabbarHidden:NO];
 }
 
 - (void)presentSearchController:(UISearchController *)searchController {

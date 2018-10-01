@@ -11,19 +11,10 @@
 #import "BaseNavigationController.h"
 
 @interface AppDelegate ()
-@property (strong, nonatomic) UITabBarController *tabbarCtr;
+@property (strong, nonatomic) UITabBarController *tabBarController;
 @end
 
 @implementation AppDelegate
-- (void)tabbarHidden:(BOOL)hidden{
-    CGFloat tabbarHight = hidden?-83:0;
-    CGRect rectWindow = self.window.frame;
-    CGRect rectTabBar = self.tabbarCtr.tabBar.frame;
-    rectTabBar.size.height = tabbarHight;
-    rectTabBar.origin.y = CGRectGetHeight(rectWindow) - tabbarHight;
-    self.tabbarCtr.tabBar.frame = rectTabBar;
-    self.tabbarCtr.selectedViewController.view.frame = CGRectMake(0, 0, CGRectGetWidth(rectWindow), CGRectGetMaxY(rectTabBar));
-}
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
@@ -32,9 +23,9 @@
     
     ViewController *vc = [[ViewController alloc]initWithNibName:@"ViewController" bundle:nil];
     BaseNavigationController *nav = [[BaseNavigationController alloc]initWithRootViewController:vc];
-    self.tabbarCtr = [[UITabBarController alloc]init];
-    [self.tabbarCtr addChildViewController:nav];
-    self.window.rootViewController = self.tabbarCtr;
+    UITabBarController *tabBarController = [[UITabBarController alloc]init];
+    [tabBarController addChildViewController:nav];
+    self.window.rootViewController = tabBarController;
     [self.window makeKeyAndVisible];
     
     return YES;
