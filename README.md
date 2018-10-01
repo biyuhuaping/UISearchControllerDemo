@@ -1,5 +1,5 @@
-# UISearchControllerDeme
-按照微信的搜索框自己写了一个UISearchControllerDeme，WeChatSearchController
+# UISearchControllerDemo
+按照微信的搜索框自己写了一个UISearchControllerDemo，WeChatSearchController
 最近需要做一个搜索效果和微信搜索页面很类似，我使用UISearchController尝试了很多办法，都不能默认显示searchResultController，经过翻墙查找海量资料，终于做成微信的搜索效果，需要设置的地方只有下面一个地方：
 ```
 #pragma mark - UISearchResultsUpdating
