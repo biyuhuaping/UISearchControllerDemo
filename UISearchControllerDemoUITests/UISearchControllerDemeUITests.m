@@ -1,6 +1,6 @@
 //
-//  UISearchControllerDemeUITests.m
-//  UISearchControllerDemeUITests
+//  UISearchControllerDemoUITests.m
+//  UISearchControllerDemoUITests
 //
 //  Created by 周博 on 2017/12/13.
 //  Copyright © 2017年 zhoubo. All rights reserved.
@@ -8,11 +8,11 @@
 
 #import <XCTest/XCTest.h>
 
-@interface UISearchControllerDemeUITests : XCTestCase
+@interface UISearchControllerDemoUITests : XCTestCase
 
 @end
 
-@implementation UISearchControllerDemeUITests
+@implementation UISearchControllerDemoUITests
 
 - (void)setUp {
     [super setUp];

@@ -44,17 +44,17 @@
 /* Begin PBXFileReference section */
 		C71ECF4D2033DE1000CD6299 /* BaseNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseNavigationController.h; sourceTree = "<group>"; };
 		C71ECF4E2033DE1000CD6299 /* BaseNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseNavigationController.m; sourceTree = "<group>"; };
-		C7F651B51FE0C58A004D31B3 /* UISearchControllerDeme.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UISearchControllerDeme.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7F651B51FE0C58A004D31B3 /* UISearchControllerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UISearchControllerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7F651B81FE0C58A004D31B3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C7F651B91FE0C58A004D31B3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		C7F651C11FE0C58A004D31B3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C7F651C41FE0C58A004D31B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C7F651C61FE0C58A004D31B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C7F651C71FE0C58A004D31B3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		C7F651CD1FE0C58A004D31B3 /* UISearchControllerDemeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UISearchControllerDemeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7F651CD1FE0C58A004D31B3 /* UISearchControllerDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UISearchControllerDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7F651D11FE0C58A004D31B3 /* UISearchControllerDemeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UISearchControllerDemeTests.m; sourceTree = "<group>"; };
 		C7F651D31FE0C58A004D31B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C7F651D81FE0C58A004D31B3 /* UISearchControllerDemeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UISearchControllerDemeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7F651D81FE0C58A004D31B3 /* UISearchControllerDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UISearchControllerDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7F651DC1FE0C58A004D31B3 /* UISearchControllerDemeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UISearchControllerDemeUITests.m; sourceTree = "<group>"; };
 		C7F651DE1FE0C58A004D31B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C7F651EA1FE0C5AB004D31B3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
@@ -99,9 +99,9 @@
 		C7F651AC1FE0C58A004D31B3 = {
 			isa = PBXGroup;
 			children = (
-				C7F651B71FE0C58A004D31B3 /* UISearchControllerDeme */,
-				C7F651D01FE0C58A004D31B3 /* UISearchControllerDemeTests */,
-				C7F651DB1FE0C58A004D31B3 /* UISearchControllerDemeUITests */,
+				C7F651B71FE0C58A004D31B3 /* UISearchControllerDemo */,
+				C7F651D01FE0C58A004D31B3 /* UISearchControllerDemoTests */,
+				C7F651DB1FE0C58A004D31B3 /* UISearchControllerDemoUITests */,
 				C7F651B61FE0C58A004D31B3 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -109,14 +109,14 @@
 		C7F651B61FE0C58A004D31B3 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C7F651B51FE0C58A004D31B3 /* UISearchControllerDeme.app */,
-				C7F651CD1FE0C58A004D31B3 /* UISearchControllerDemeTests.xctest */,
-				C7F651D81FE0C58A004D31B3 /* UISearchControllerDemeUITests.xctest */,
+				C7F651B51FE0C58A004D31B3 /* UISearchControllerDemo.app */,
+				C7F651CD1FE0C58A004D31B3 /* UISearchControllerDemoTests.xctest */,
+				C7F651D81FE0C58A004D31B3 /* UISearchControllerDemoUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		C7F651B71FE0C58A004D31B3 /* UISearchControllerDeme */ = {
+		C7F651B71FE0C58A004D31B3 /* UISearchControllerDemo */ = {
 			isa = PBXGroup;
 			children = (
 				C71ECF4D2033DE1000CD6299 /* BaseNavigationController.h */,
@@ -140,33 +140,33 @@
 				C7F651C61FE0C58A004D31B3 /* Info.plist */,
 				C7F651C71FE0C58A004D31B3 /* main.m */,
 			);
-			path = UISearchControllerDeme;
+			path = UISearchControllerDemo;
 			sourceTree = "<group>";
 		};
-		C7F651D01FE0C58A004D31B3 /* UISearchControllerDemeTests */ = {
+		C7F651D01FE0C58A004D31B3 /* UISearchControllerDemoTests */ = {
 			isa = PBXGroup;
 			children = (
 				C7F651D11FE0C58A004D31B3 /* UISearchControllerDemeTests.m */,
 				C7F651D31FE0C58A004D31B3 /* Info.plist */,
 			);
-			path = UISearchControllerDemeTests;
+			path = UISearchControllerDemoTests;
 			sourceTree = "<group>";
 		};
-		C7F651DB1FE0C58A004D31B3 /* UISearchControllerDemeUITests */ = {
+		C7F651DB1FE0C58A004D31B3 /* UISearchControllerDemoUITests */ = {
 			isa = PBXGroup;
 			children = (
 				C7F651DC1FE0C58A004D31B3 /* UISearchControllerDemeUITests.m */,
 				C7F651DE1FE0C58A004D31B3 /* Info.plist */,
 			);
-			path = UISearchControllerDemeUITests;
+			path = UISearchControllerDemoUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		C7F651B41FE0C58A004D31B3 /* UISearchControllerDeme */ = {
+		C7F651B41FE0C58A004D31B3 /* UISearchControllerDemo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C7F651E11FE0C58A004D31B3 /* Build configuration list for PBXNativeTarget "UISearchControllerDeme" */;
+			buildConfigurationList = C7F651E11FE0C58A004D31B3 /* Build configuration list for PBXNativeTarget "UISearchControllerDemo" */;
 			buildPhases = (
 				C7F651B11FE0C58A004D31B3 /* Sources */,
 				C7F651B21FE0C58A004D31B3 /* Frameworks */,
@@ -176,14 +176,14 @@
 			);
 			dependencies = (
 			);
-			name = UISearchControllerDeme;
+			name = UISearchControllerDemo;
 			productName = UISearchControllerDeme;
-			productReference = C7F651B51FE0C58A004D31B3 /* UISearchControllerDeme.app */;
+			productReference = C7F651B51FE0C58A004D31B3 /* UISearchControllerDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
-		C7F651CC1FE0C58A004D31B3 /* UISearchControllerDemeTests */ = {
+		C7F651CC1FE0C58A004D31B3 /* UISearchControllerDemoTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C7F651E41FE0C58A004D31B3 /* Build configuration list for PBXNativeTarget "UISearchControllerDemeTests" */;
+			buildConfigurationList = C7F651E41FE0C58A004D31B3 /* Build configuration list for PBXNativeTarget "UISearchControllerDemoTests" */;
 			buildPhases = (
 				C7F651C91FE0C58A004D31B3 /* Sources */,
 				C7F651CA1FE0C58A004D31B3 /* Frameworks */,
@@ -194,14 +194,14 @@
 			dependencies = (
 				C7F651CF1FE0C58A004D31B3 /* PBXTargetDependency */,
 			);
-			name = UISearchControllerDemeTests;
+			name = UISearchControllerDemoTests;
 			productName = UISearchControllerDemeTests;
-			productReference = C7F651CD1FE0C58A004D31B3 /* UISearchControllerDemeTests.xctest */;
+			productReference = C7F651CD1FE0C58A004D31B3 /* UISearchControllerDemoTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		C7F651D71FE0C58A004D31B3 /* UISearchControllerDemeUITests */ = {
+		C7F651D71FE0C58A004D31B3 /* UISearchControllerDemoUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C7F651E71FE0C58A004D31B3 /* Build configuration list for PBXNativeTarget "UISearchControllerDemeUITests" */;
+			buildConfigurationList = C7F651E71FE0C58A004D31B3 /* Build configuration list for PBXNativeTarget "UISearchControllerDemoUITests" */;
 			buildPhases = (
 				C7F651D41FE0C58A004D31B3 /* Sources */,
 				C7F651D51FE0C58A004D31B3 /* Frameworks */,
@@ -212,9 +212,9 @@
 			dependencies = (
 				C7F651DA1FE0C58A004D31B3 /* PBXTargetDependency */,
 			);
-			name = UISearchControllerDemeUITests;
+			name = UISearchControllerDemoUITests;
 			productName = UISearchControllerDemeUITests;
-			productReference = C7F651D81FE0C58A004D31B3 /* UISearchControllerDemeUITests.xctest */;
+			productReference = C7F651D81FE0C58A004D31B3 /* UISearchControllerDemoUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -242,7 +242,7 @@
 					};
 				};
 			};
-			buildConfigurationList = C7F651B01FE0C58A004D31B3 /* Build configuration list for PBXProject "UISearchControllerDeme" */;
+			buildConfigurationList = C7F651B01FE0C58A004D31B3 /* Build configuration list for PBXProject "UISearchControllerDemo" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -255,9 +255,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C7F651B41FE0C58A004D31B3 /* UISearchControllerDeme */,
-				C7F651CC1FE0C58A004D31B3 /* UISearchControllerDemeTests */,
-				C7F651D71FE0C58A004D31B3 /* UISearchControllerDemeUITests */,
+				C7F651B41FE0C58A004D31B3 /* UISearchControllerDemo */,
+				C7F651CC1FE0C58A004D31B3 /* UISearchControllerDemoTests */,
+				C7F651D71FE0C58A004D31B3 /* UISearchControllerDemoUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -328,12 +328,12 @@
 /* Begin PBXTargetDependency section */
 		C7F651CF1FE0C58A004D31B3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = C7F651B41FE0C58A004D31B3 /* UISearchControllerDeme */;
+			target = C7F651B41FE0C58A004D31B3 /* UISearchControllerDemo */;
 			targetProxy = C7F651CE1FE0C58A004D31B3 /* PBXContainerItemProxy */;
 		};
 		C7F651DA1FE0C58A004D31B3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = C7F651B41FE0C58A004D31B3 /* UISearchControllerDeme */;
+			target = C7F651B41FE0C58A004D31B3 /* UISearchControllerDemo */;
 			targetProxy = C7F651D91FE0C58A004D31B3 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -460,10 +460,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = BNV27HH5PK;
-				INFOPLIST_FILE = UISearchControllerDeme/Info.plist;
+				INFOPLIST_FILE = UISearchControllerDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.zhoubo.UISearchControllerDeme;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhoubo.UISearchControllerDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -475,10 +475,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = BNV27HH5PK;
-				INFOPLIST_FILE = UISearchControllerDeme/Info.plist;
+				INFOPLIST_FILE = UISearchControllerDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.zhoubo.UISearchControllerDeme;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhoubo.UISearchControllerDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -495,7 +495,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.zhoubo.UISearchControllerDemeTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UISearchControllerDeme.app/UISearchControllerDeme";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UISearchControllerDemo.app/UISearchControllerDemo";
 			};
 			name = Debug;
 		};
@@ -510,7 +510,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.zhoubo.UISearchControllerDemeTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UISearchControllerDeme.app/UISearchControllerDeme";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UISearchControllerDemo.app/UISearchControllerDemo";
 			};
 			name = Release;
 		};
@@ -545,7 +545,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		C7F651B01FE0C58A004D31B3 /* Build configuration list for PBXProject "UISearchControllerDeme" */ = {
+		C7F651B01FE0C58A004D31B3 /* Build configuration list for PBXProject "UISearchControllerDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C7F651DF1FE0C58A004D31B3 /* Debug */,
@@ -554,7 +554,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C7F651E11FE0C58A004D31B3 /* Build configuration list for PBXNativeTarget "UISearchControllerDeme" */ = {
+		C7F651E11FE0C58A004D31B3 /* Build configuration list for PBXNativeTarget "UISearchControllerDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C7F651E21FE0C58A004D31B3 /* Debug */,
@@ -563,7 +563,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C7F651E41FE0C58A004D31B3 /* Build configuration list for PBXNativeTarget "UISearchControllerDemeTests" */ = {
+		C7F651E41FE0C58A004D31B3 /* Build configuration list for PBXNativeTarget "UISearchControllerDemoTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C7F651E51FE0C58A004D31B3 /* Debug */,
@@ -572,7 +572,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C7F651E71FE0C58A004D31B3 /* Build configuration list for PBXNativeTarget "UISearchControllerDemeUITests" */ = {
+		C7F651E71FE0C58A004D31B3 /* Build configuration list for PBXNativeTarget "UISearchControllerDemoUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C7F651E81FE0C58A004D31B3 /* Debug */,
