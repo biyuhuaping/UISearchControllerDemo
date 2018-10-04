@@ -11,7 +11,7 @@
 #import "BaseNavigationController.h"
 
 @interface AppDelegate ()
-@property (strong, nonatomic) UITabBarController *tabBarController;
+
 @end
 
 @implementation AppDelegate

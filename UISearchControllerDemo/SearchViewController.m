@@ -35,6 +35,16 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (void)viewWillLayoutSubviews{
+    [super viewWillLayoutSubviews];
+    UIViewController *rootViewController = [[[UIApplication sharedApplication] keyWindow] rootViewController];
+    if ([rootViewController isKindOfClass:[UITabBarController class]]) {
+        UITabBarController *tabBarController = (UITabBarController *)rootViewController;
+        tabBarController.tabBar.hidden = YES;
+        tabBarController.edgesForExtendedLayout = UIRectEdgeBottom;
+    }
+}
+
 #pragma mark - tableView
 - (void)scrollViewWillBeginDragging:(UIScrollView *)scrollView{
     [self.searchBar resignFirstResponder];
