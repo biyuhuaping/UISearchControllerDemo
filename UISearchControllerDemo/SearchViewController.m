@@ -11,8 +11,8 @@
 #import "SearchDetailVC.h"
 
 @interface SearchViewController ()
-@property (strong, nonatomic) IBOutlet UITableView *tableView;
 
+@property (strong, nonatomic) IBOutlet UITableView *tableView;
 @property (strong, nonatomic) NSMutableArray *searchList;//满足搜索条件的数组
 
 @end
