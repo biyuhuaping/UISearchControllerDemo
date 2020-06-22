@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3921C52824A0E6450033390E /* BaseTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3921C52724A0E6450033390E /* BaseTabBarController.m */; };
 		C71ECF4F2033DE1000CD6299 /* BaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = C71ECF4E2033DE1000CD6299 /* BaseNavigationController.m */; };
 		C7F651BA1FE0C58A004D31B3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C7F651B91FE0C58A004D31B3 /* AppDelegate.m */; };
 		C7F651C21FE0C58A004D31B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C7F651C11FE0C58A004D31B3 /* Assets.xcassets */; };
@@ -42,6 +43,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3921C52624A0E6450033390E /* BaseTabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseTabBarController.h; sourceTree = "<group>"; };
+		3921C52724A0E6450033390E /* BaseTabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseTabBarController.m; sourceTree = "<group>"; };
 		C71ECF4D2033DE1000CD6299 /* BaseNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseNavigationController.h; sourceTree = "<group>"; };
 		C71ECF4E2033DE1000CD6299 /* BaseNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseNavigationController.m; sourceTree = "<group>"; };
 		C7F651B51FE0C58A004D31B3 /* UISearchControllerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UISearchControllerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -96,6 +99,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3921C52924A0E64E0033390E /* base */ = {
+			isa = PBXGroup;
+			children = (
+				C71ECF4D2033DE1000CD6299 /* BaseNavigationController.h */,
+				C71ECF4E2033DE1000CD6299 /* BaseNavigationController.m */,
+				3921C52624A0E6450033390E /* BaseTabBarController.h */,
+				3921C52724A0E6450033390E /* BaseTabBarController.m */,
+			);
+			path = base;
+			sourceTree = "<group>";
+		};
 		C7F651AC1FE0C58A004D31B3 = {
 			isa = PBXGroup;
 			children = (
@@ -119,8 +133,7 @@
 		C7F651B71FE0C58A004D31B3 /* UISearchControllerDemo */ = {
 			isa = PBXGroup;
 			children = (
-				C71ECF4D2033DE1000CD6299 /* BaseNavigationController.h */,
-				C71ECF4E2033DE1000CD6299 /* BaseNavigationController.m */,
+				3921C52924A0E64E0033390E /* base */,
 				C7F651B81FE0C58A004D31B3 /* AppDelegate.h */,
 				C7F651B91FE0C58A004D31B3 /* AppDelegate.m */,
 				C7F651EA1FE0C5AB004D31B3 /* ViewController.h */,
@@ -301,6 +314,7 @@
 				C71ECF4F2033DE1000CD6299 /* BaseNavigationController.m in Sources */,
 				C7F651C81FE0C58A004D31B3 /* main.m in Sources */,
 				C7F652161FE0F17D004D31B3 /* CustomTableViewCell.m in Sources */,
+				3921C52824A0E6450033390E /* BaseTabBarController.m in Sources */,
 				C7F651F21FE0C6FF004D31B3 /* SearchViewController.m in Sources */,
 				C7F651F71FE0C756004D31B3 /* SearchDetailVC.m in Sources */,
 				C7F651BA1FE0C58A004D31B3 /* AppDelegate.m in Sources */,
@@ -463,7 +477,7 @@
 				INFOPLIST_FILE = UISearchControllerDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.zhoubo.UISearchControllerDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.biyuhuaping.UISearchControllerDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -478,7 +492,7 @@
 				INFOPLIST_FILE = UISearchControllerDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.zhoubo.UISearchControllerDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.biyuhuaping.UISearchControllerDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
